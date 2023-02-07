@@ -116,7 +116,6 @@ width: 423px;
 height: 504px;
 }
 
-
 .services{
   width: 100%;
   max-width: 904px;
@@ -124,14 +123,37 @@ height: 504px;
   margin-right: auto;
   padding-left: 20px;
   padding-right: 20px;
+  margin-top: 120px;
 }
 
 .service{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .service-heading{
-  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.service-heading h2{
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-size: 36px;
+  }
+
+.service-item{
+  display: flex;
+  padding-bottom: 80px;
+}
+.service-photo{
+  margin: 0;
+  margin-right: 64px;
+}
+
+.service-item h3{
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-size: 24px;
 }
