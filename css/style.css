@@ -115,3 +115,23 @@ body{
 width: 423px;
 height: 504px;
 }
+
+
+.services{
+  width: 100%;
+  max-width: 904px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.service{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.service-heading{
+  align-items: center;
+}
